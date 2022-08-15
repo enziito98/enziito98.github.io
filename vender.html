@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inmobiliaria</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/vender.css" type="text/css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <a class="img__link" href="index.html"><img class="img__logo" src="images/logo.jpeg" alt="logo"></a>
+      </div>
+      <div class="links">
+        <ul class="ul__link">
+          <li class="li__link"><a class="link" href="index.html">Inicio</a></li>
+          <li class="li__link"><a class="link" href="comprar.html">Comprar</a></li>
+          <li class="li__link"><a class="link link__active" href="vender.html">Vender</a></li>
+          <li class="li__link"><a class="link" href="alquilar.html">Alquilar</a></li>
+          <li class="li__link"><a class="link" href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header> 
+
+    <main>
+      <div class="main-div-container">
+      <div class="ventas-container container">
+        <div class="top">
+          <h2 class="ventas-title">Vendé tu propiedad</h2>
+          <p class="ventas-desc">Escriba sus datos para poder comunicarnos con usted.</p>
+        </div>
+
+        <div class="div-form-container">
+          <form class="form-container">
+            <input name="name-surname" type="text" placeholder="Nombre y Apellido">
+            <input name="email" type="email" placeholder="Correo Electronico">
+            <input name="tel" type="tel" placeholder="Numero de telefono">
+            <input name="ubicacion" type="text" placeholder="Ubicación">
+            <input name="localidad" type="text" placeholder="Localidad/Provincia">
+            <select name= "select-container">
+                <option value="casa">Casa</option>
+              <option value="departamento">Departamento</option>
+            </select>
+            <input name="ambientes" type="text" placeholder="Ambientes">
+            <textarea placeholder="Descripcion"></textarea>
+            <button>Enviar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="img-container">
+        <img src="images/house.jpg" alt="">
+      </div>
+      </div>
+    </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="info">
+        <a class="link__info" href="index.html">Ir al Comienzo.</a>
+        <a class="link__info" href="contacto.html">Contactenos.</a>
+      </div>
+      <div class="redes">
+        <p>Copyrigth ©Atalaya. Todos Los Derechos Reservados.</p>
+        <a href="#"><img class="icon" src="svg/facebook.svg" alt="facebook"></a>
+        <a href="#"><img class="icon" src="svg/instagram.svg" alt="instagram"></a>
+        <a href="#"><img class="icon" src="svg/whatsapp.svg" alt="whatsapp"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
