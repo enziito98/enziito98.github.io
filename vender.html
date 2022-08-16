@@ -10,9 +10,11 @@
 <body>
   <header class="header">
     <nav class="nav">
+
       <div class="logo">
         <a class="img__link" href="index.html"><img class="img__logo" src="images/logo.jpeg" alt="logo"></a>
       </div>
+
       <div class="links">
         <ul class="ul__link">
           <li class="li__link"><a class="link" href="index.html">Inicio</a></li>
@@ -22,38 +24,35 @@
           <li class="li__link"><a class="link" href="blog.html">Blog</a></li>
         </ul>
       </div>
+
+      <div class="hamburguesa">
+        <img src="images/menu-regular-24 (1).png" alt="menu" id="hamburguesa">
+      </div>
+
     </nav>
   </header> 
 
-    <main>
-      <div class="main-div-container">
-      <div class="ventas-container container">
-        <div class="top">
-          <h2 class="ventas-title">Vendé tu propiedad</h2>
-          <p class="ventas-desc">Escriba sus datos para poder comunicarnos con usted.</p>
-        </div>
-
-        <div class="div-form-container">
-          <form class="form-container">
-            <input name="name-surname" type="text" placeholder="Nombre y Apellido">
-            <input name="email" type="email" placeholder="Correo Electronico">
-            <input name="tel" type="tel" placeholder="Numero de telefono">
-            <input name="ubicacion" type="text" placeholder="Ubicación">
-            <input name="localidad" type="text" placeholder="Localidad/Provincia">
-            <select name= "select-container">
-                <option value="casa">Casa</option>
-              <option value="departamento">Departamento</option>
-            </select>
-            <input name="ambientes" type="text" placeholder="Ambientes">
-            <textarea placeholder="Descripcion"></textarea>
-            <button>Enviar</button>
-          </form>
-        </div>
+    <main class="main">
+      <div class="div__form">
+        <form class="form">
+          <h1>Contactenos</h1>
+          <p>Llene el formulario y nosotros nos estaremos comunicando con usted.</p><br>
+          <input placeholder="Nombre y Apellido" type="text"><br>
+          <input placeholder="Correo Electronico" type="email"><br>
+          <input placeholder="Numero de Telefono" type="tel"><br>
+          <input placeholder="Ubicacion" type="text"><br>
+          <input placeholder="Localidad/Provincia" type="text"><br>
+          <select name="" id="">
+            <option value="">Casa</option>
+            <option value="">departamento</option>
+          </select><br>
+          <input placeholder="Ambientes" type="number"><br>
+          <textarea placeholder="Descripcion" name="" id="" cols="30" rows="10"></textarea><br>
+          <button class="button" value="submit">Enviar</button><br>
+        </form>
       </div>
-
-      <div class="img-container">
-        <img src="images/house.jpg" alt="">
-      </div>
+      <div class="div__img">
+        <img class="img" src="images/house.jpg" alt="house">
       </div>
     </main>
 
@@ -72,4 +71,5 @@
     </div>
   </footer>
 </body>
+<script src="js/main.js"></script>
 </html>
