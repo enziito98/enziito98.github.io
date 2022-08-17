@@ -13,7 +13,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 3;
 }
 
 .nav{
@@ -133,4 +133,24 @@
     .enlaces2{
         transform: translateX(0%);
     }
+}
+
+@media (max-width: 600px){
+  .footer__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .link__info{
+    background-color: #00ff;
+    border-radius: 6px;
+  }
 }
