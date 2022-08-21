@@ -29,14 +29,19 @@ a {
 }
 
 .pagina{
+  font-size: 20px;
   position: absolute;
   color: #fff !important;
   top: 80%;
-  left: 10%;
   background-color: #0000ff;
   border-radius: 6px;
   padding: 10px;
   box-shadow: 5px 5px 12px #000;
+  transition: transform .3s ease;
+}
+
+.pagina:hover{
+  transform: scale(1.02);
 }
 
 
@@ -201,17 +206,6 @@ select{
     padding: 5px;
 }
 
-.pagina{
-	text-decoration: none;
-	color: #cfb521;
-	font-size: 23px;
-	transition: transform .3s ease;
-}
-
-.pagina:hover{
-	transform: scale(1.1);
-}
-
 .copy{
     text-align: center;
 }
@@ -244,12 +238,6 @@ select{
 	}
 }
 
-@media screen and (max-width: 450px) {
-	nav a {
-		font-size: 12px;
-	}
-}
-
 @media (max-width: 800px){
 	
 	.footer--container{
@@ -257,5 +245,9 @@ select{
         flex-wrap: wrap;
         justify-content: center;
 		margin-bottom: 20px;
+    }
+
+    .pagina{
+      top: 80%;
     }
 }
